@@ -50,8 +50,6 @@ The _Version Information Component_ is supplied in a zip file. Before installing
 
 * **`PJVersionInfo.pas`** – Component source code.
 * **`PJVersionInfo.dcr`** – Component palette glyph.
-* `PJVersionInfo.hlp` – Help file that integrates into the Delphi 3-7 IDE.
-* `PJVersionInfo.als` – Keyword file required when integrating the help file with Delphi 6 and 7.
 * `README.md` – This read-me file.
 * `CHANGELOG.md` – Change log.
 * `MPL-2.txt` – Mozilla Public License v2.0.
@@ -62,8 +60,6 @@ In addition to the above files you will find the the source code of two [demo pr
 You can now install the component into the Delphi IDE.
 
 For Delphi 3 onwards you must include `PJVersionInfo.pas` and `PJVersionInfo.dcr` in a design time package that is installed into the Delphi IDE. If you need help doing this [see here](https://delphidabbler.com/url/install-comp).
-
-Note that the help file included in the download can only integrate with the IDE in Delphi 3-7 and _**won't work with Windows 10 & 11 at all**_. For information on how to do this, see [this article](https://delphidabbler.com/articles/article-15). Users of other versions of Delphi can either use the help file as a stand-alone file (in which case some links won't work) or you can use the component's [online documentation](https://delphidabbler.com/url/verinfo-docs).
 
 ## Demo Projects
 
